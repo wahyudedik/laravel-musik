@@ -744,45 +744,6 @@
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Why Laravel Musik?</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="ti ti-music text-spotify fs-1 me-3"></i>
-                            <h3 class="mb-0">Millions of Songs</h3>
-                        </div>
-                        <p class="text-muted">Stream any song, anywhere, anytime. Discover new music
-                            every day.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="ti ti-device-laptop text-spotify fs-1 me-3"></i>
-                            <h3 class="mb-0">Cross-Platform</h3>
-                        </div>
-                        <p class="text-muted">Listen on your phone, tablet, computer, TV, and more
-                            devices.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card p-4 h-100">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="ti ti-playlist text-spotify fs-1 me-3"></i>
-                            <h3 class="mb-0">Custom Playlists</h3>
-                        </div>
-                        <p class="text-muted">Create your own playlists or enjoy our curated
-                            collections.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Statistics Section -->
     <section class="py-5" style="background: linear-gradient(90deg, #1DB954 0%, #0D5E2A 100%);">
         <div class="container">
@@ -809,58 +770,6 @@
                     <div class="p-3">
                         <h2 class="display-4 fw-bold text-white">450M+</h2>
                         <p class="text-white-50 fs-5">Users</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Premium Comparison -->
-    <section class="py-5">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="display-6">Why go Premium?</h2>
-                <p class="text-muted w-md-50 mx-auto">Upgrade your listening experience with Premium</p>
-            </div>
-            <div class="row">
-                <div class="col-md-10 mx-auto">
-                    <div class="table-responsive">
-                        <table class="table table-dark table-borderless">
-                            <thead>
-                                <tr class="border-bottom">
-                                    <th style="width: 50%">Features</th>
-                                    <th class="text-center">Free</th>
-                                    <th class="text-center text-spotify">Premium</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="py-3">Ad-free music listening</td>
-                                    <td class="text-center"><i class="ti ti-x text-muted"></i></td>
-                                    <td class="text-center"><i class="ti ti-check text-spotify"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3">Download to listen offline</td>
-                                    <td class="text-center"><i class="ti ti-x text-muted"></i></td>
-                                    <td class="text-center"><i class="ti ti-check text-spotify"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3">Play songs in any order</td>
-                                    <td class="text-center"><i class="ti ti-x text-muted"></i></td>
-                                    <td class="text-center"><i class="ti ti-check text-spotify"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3">High quality audio (up to 320 kbps)</td>
-                                    <td class="text-center"><i class="ti ti-x text-muted"></i></td>
-                                    <td class="text-center"><i class="ti ti-check text-spotify"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="py-3">Cancel anytime</td>
-                                    <td class="text-center"><i class="ti ti-check text-muted"></i></td>
-                                    <td class="text-center"><i class="ti ti-check text-spotify"></i></td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
