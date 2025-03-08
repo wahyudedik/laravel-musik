@@ -22,11 +22,12 @@ Route::middleware('auth')->group(function () {
 // Route untuk landlord (super_admin dan admin)
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/administrator', [SessionTenantController::class, 'landlordDashboard'])
-    ->name('landlord.dashboard');
+        ->name('landlord.dashboard');
 });
 
 Route::prefix('{tenant}')->middleware(['auth', 'verified', 'tenant'])->group(function () {
-    Route::get('/dashboard', [SessionTenantController::class, 'index'])->name('dashboard');
+    Route::get('/dashboard', [SessionTenantController::class, 'index'])
+        ->name('dashboard');
 });
 
 // Tambahkan route debug ini untuk pengecekan
@@ -51,4 +52,4 @@ Route::get('/debug-tenant-user', function () {
 
 
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

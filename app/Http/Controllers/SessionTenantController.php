@@ -20,7 +20,7 @@ class SessionTenantController extends Controller
         } catch (\Exception $e) {
             return redirect()->back()
                 ->withInput()
-                ->withErrors(['error' => 'Error: ' . $e->getMessage()]);
+                ->withErrors(['error' => 'Error: ' . $e->getMessage()]); 
         }
     }
 
